@@ -103,3 +103,5 @@ Mapper层发生的异常（如SQL执行错误、数据库连接失败异常，�
 在图3.7中还有一部分模块未提到：Knife4J文档、元数据填充（AutoFill）。其中Knife4J文档会自动生成可交互的后端接口测试文档，元数据填充通过ORM框架实现在更新时和新增时修改数据表中指定的字段，均由第三方库加简单编码实现。
 此外，考虑到系统的安全性，对密码采用非对称加密存储，并设计3.5.2节中的鉴权等方式提升系统安全性。
 ```
+## 系统用例图
+![image](https://github.com/Luyabs/literary-works-recommendation-frontend/assets/74538732/7144c98a-ca43-4dfe-be21-c004510b688f)
