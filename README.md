@@ -72,7 +72,10 @@ algorithm-backend:
 |           |            |              |                       |                 |                                |
 | src/test/ | java/      | edu/shu/abs  | CodeGenerator         |                 | 由数据表直接创建简要文件的代码生成器             |
 
-## 架构设计
+## 项目整体架构
+![image](https://github.com/Luyabs/literary-works-recommendation-backend/assets/74538732/a3344555-7c3e-498e-a794-06a25da84354)
+
+## 算法后端架构设计
 ![image](https://github.com/Luyabs/literary-works-recommendation-backend/assets/74538732/00b6108f-8cff-46e1-a052-175d9955ac9d)
 ```text
 3.5.1 普通业务功能设计
