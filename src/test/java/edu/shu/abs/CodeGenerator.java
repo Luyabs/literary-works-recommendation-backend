@@ -32,9 +32,9 @@ public class CodeGenerator {
     private String packageName;    // 包名
 
     private final List<String> tableName = List.of(
-            "collection", "history_user_work", "message",
+            "collection", "history_user_work",
             "record_collection_work", "review_user_work",
-            "user", "work"
+            "user", "work", "tag", "record_tag_work"
     );   // 表名
 
     private final String tablePrefix = "t_"; //"t_";  // 忽略的表名前缀
